@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8091A6721BCCBDF00AFEB0E /* DateQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8091A6621BCCBDF00AFEB0E /* DateQuestions.swift */; };
+		C87621F021C1569200BCFC9B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87621EF21C1569200BCFC9B /* ResultViewController.swift */; };
 		C88A7F4621B829B200AC7978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88A7F4521B829B200AC7978 /* AppDelegate.swift */; };
 		C88A7F4821B829B200AC7978 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88A7F4721B829B200AC7978 /* ViewController.swift */; };
 		C88A7F4B21B829B200AC7978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88A7F4921B829B200AC7978 /* Main.storyboard */; };
 		C88A7F4D21B829B500AC7978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88A7F4C21B829B500AC7978 /* Assets.xcassets */; };
 		C88A7F5021B829B500AC7978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88A7F4E21B829B500AC7978 /* LaunchScreen.storyboard */; };
+		C89E12DC21BB6FCA000E0330 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89E12DB21BB6FCA000E0330 /* QuestionViewController.swift */; };
+		C89E12DE21BB9E11000E0330 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89E12DD21BB9E11000E0330 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C8091A6621BCCBDF00AFEB0E /* DateQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateQuestions.swift; sourceTree = "<group>"; };
+		C87621EF21C1569200BCFC9B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		C88A7F4221B829B200AC7978 /* Какое ты животное.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Какое ты животное.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88A7F4521B829B200AC7978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C88A7F4721B829B200AC7978 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		C88A7F4C21B829B500AC7978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C88A7F4F21B829B500AC7978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C88A7F5121B829B500AC7978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C89E12DB21BB6FCA000E0330 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		C89E12DD21BB9E11000E0330 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,11 @@
 			children = (
 				C88A7F4521B829B200AC7978 /* AppDelegate.swift */,
 				C88A7F4721B829B200AC7978 /* ViewController.swift */,
+				C87621EF21C1569200BCFC9B /* ResultViewController.swift */,
+				C89E12DB21BB6FCA000E0330 /* QuestionViewController.swift */,
 				C88A7F4921B829B200AC7978 /* Main.storyboard */,
+				C8091A6621BCCBDF00AFEB0E /* DateQuestions.swift */,
+				C89E12DD21BB9E11000E0330 /* Question.swift */,
 				C88A7F4C21B829B500AC7978 /* Assets.xcassets */,
 				C88A7F4E21B829B500AC7978 /* LaunchScreen.storyboard */,
 				C88A7F5121B829B500AC7978 /* Info.plist */,
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C88A7F4821B829B200AC7978 /* ViewController.swift in Sources */,
+				C8091A6721BCCBDF00AFEB0E /* DateQuestions.swift in Sources */,
+				C89E12DE21BB9E11000E0330 /* Question.swift in Sources */,
 				C88A7F4621B829B200AC7978 /* AppDelegate.swift in Sources */,
+				C89E12DC21BB6FCA000E0330 /* QuestionViewController.swift in Sources */,
+				C87621F021C1569200BCFC9B /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
